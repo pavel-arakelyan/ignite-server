@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edb3ac55-8dc6-4b6d-a558-d2aa143aa7dc" name="Default" comment="" />
+    <list default="true" id="edb3ac55-8dc6-4b6d-a558-d2aa143aa7dc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ignite-boot-client-2-0.0.1-SNAPSHOT.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/another-ignite-boot-client-2-0.0.1-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/idm-reporting-service-1.0.7-rc.2.jar" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/igniteserver.iml" afterPath="$PROJECT_DIR$/ignite-server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/ignite-boot-client-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/libs/ignite-boot-client-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,21 +24,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DiscoveryDataPacket.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/internal/DiscoveryDataPacket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Starter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Starter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Starter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,143 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserCodeDeploymentConfig.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.8.3/hazelcast-3.8.3-sources.jar!/com/hazelcast/config/UserCodeDeploymentConfig.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.8.3/hazelcast-3.8.3-sources.jar!/com/hazelcast/config/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#47268#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#5727#5728#0" expanded="false" />
-                <element signature="e#5775#5776#0" expanded="false" />
-                <element signature="e#6016#6017#0" expanded="false" />
-                <element signature="e#6050#6051#0" expanded="false" />
-                <element signature="e#6679#6680#0" expanded="false" />
-                <element signature="e#6722#6723#0" expanded="false" />
-                <element signature="e#7753#7754#0" expanded="false" />
-                <element signature="e#7797#7798#0" expanded="false" />
-                <element signature="e#7993#7994#0" expanded="false" />
-                <element signature="e#8026#8027#0" expanded="false" />
-                <element signature="e#8188#8189#0" expanded="false" />
-                <element signature="e#8223#8224#0" expanded="false" />
-                <element signature="e#8393#8394#0" expanded="false" />
-                <element signature="e#8427#8428#0" expanded="false" />
-                <element signature="e#8602#8603#0" expanded="false" />
-                <element signature="e#8638#8639#0" expanded="false" />
-                <element signature="e#10051#10052#0" expanded="false" />
-                <element signature="e#10084#10085#0" expanded="false" />
-                <element signature="e#11517#11518#0" expanded="false" />
-                <element signature="e#11552#11553#0" expanded="false" />
-                <element signature="e#13091#13092#0" expanded="false" />
-                <element signature="e#13126#13127#0" expanded="false" />
-                <element signature="e#14570#14571#0" expanded="false" />
-                <element signature="e#14604#14605#0" expanded="false" />
-                <element signature="e#16022#16023#0" expanded="false" />
-                <element signature="e#16056#16057#0" expanded="false" />
-                <element signature="e#17451#17452#0" expanded="false" />
-                <element signature="e#17484#17485#0" expanded="false" />
-                <element signature="e#18986#18987#0" expanded="false" />
-                <element signature="e#19024#19025#0" expanded="false" />
-                <element signature="e#20594#20595#0" expanded="false" />
-                <element signature="e#20637#20638#0" expanded="false" />
-                <element signature="e#22219#22220#0" expanded="false" />
-                <element signature="e#22259#22260#0" expanded="false" />
-                <element signature="e#24802#24803#0" expanded="false" />
-                <element signature="e#24845#24846#0" expanded="false" />
-                <element signature="e#25514#25515#0" expanded="false" />
-                <element signature="e#25549#25550#0" expanded="false" />
-                <element signature="e#32515#32516#0" expanded="false" />
-                <element signature="e#32553#32554#0" expanded="false" />
-                <element signature="e#32979#32980#0" expanded="false" />
-                <element signature="e#33024#33025#0" expanded="false" />
-                <element signature="e#33510#33511#0" expanded="false" />
-                <element signature="e#33557#33558#0" expanded="false" />
-                <element signature="e#36214#36215#0" expanded="false" />
-                <element signature="e#36262#36263#0" expanded="false" />
-                <element signature="e#36702#36703#0" expanded="false" />
-                <element signature="e#36756#36757#0" expanded="false" />
-                <element signature="e#37035#37036#0" expanded="false" />
-                <element signature="e#37079#37080#0" expanded="false" />
-                <element signature="e#38537#38538#0" expanded="false" />
-                <element signature="e#38577#38578#0" expanded="false" />
-                <element signature="e#39012#39013#0" expanded="false" />
-                <element signature="e#39048#39049#0" expanded="false" />
-                <element signature="e#40514#40515#0" expanded="false" />
-                <element signature="e#40559#40560#0" expanded="false" />
-                <element signature="e#40791#40792#0" expanded="false" />
-                <element signature="e#40828#40829#0" expanded="false" />
-                <element signature="e#41020#41021#0" expanded="false" />
-                <element signature="e#41057#41058#0" expanded="false" />
-                <element signature="e#41403#41404#0" expanded="false" />
-                <element signature="e#41441#41442#0" expanded="false" />
-                <element signature="e#41697#41698#0" expanded="false" />
-                <element signature="e#41739#41740#0" expanded="false" />
-                <element signature="e#41968#41969#0" expanded="false" />
-                <element signature="e#42011#42012#0" expanded="false" />
-                <element signature="e#42380#42381#0" expanded="false" />
-                <element signature="e#42430#42431#0" expanded="false" />
-                <element signature="e#42852#42853#0" expanded="false" />
-                <element signature="e#42889#42890#0" expanded="false" />
-                <element signature="e#43099#43100#0" expanded="false" />
-                <element signature="e#43133#43134#0" expanded="false" />
-                <element signature="e#43458#43459#0" expanded="false" />
-                <element signature="e#43499#43500#0" expanded="false" />
-                <element signature="e#43754#43755#0" expanded="false" />
-                <element signature="e#43793#43794#0" expanded="false" />
-                <element signature="e#44103#44104#0" expanded="false" />
-                <element signature="e#44143#44144#0" expanded="false" />
-                <element signature="e#44402#44403#0" expanded="false" />
-                <element signature="e#44435#44436#0" expanded="false" />
-                <element signature="e#44714#44715#0" expanded="false" />
-                <element signature="e#44747#44748#0" expanded="false" />
-                <element signature="e#45169#45170#0" expanded="false" />
-                <element signature="e#45216#45217#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hazelcast-default.xml" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.8.3/hazelcast-3.8.3.jar!/hazelcast-default.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3556">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hazelcast.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.8.3/hazelcast-3.8.3-sources.jar!/com/hazelcast/core/Hazelcast.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#5673#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1233#1234#0" expanded="false" />
-                <element signature="e#1287#1288#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatasetCacheLoader.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar!/com/synisys/idm/dataset/internal/manager/DatasetCacheLoader.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -181,18 +49,8 @@
       <file leaf-file-name="ignite-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/ignite-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="30" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="113">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -212,6 +70,9 @@
       <find>marsh</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -220,9 +81,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/ignite-config.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Starter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ignite-config.xml" />
       </list>
     </option>
   </component>
@@ -285,6 +146,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -300,21 +162,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igniteserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="igniteserver" />
@@ -336,6 +186,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,9 +250,33 @@
               <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ignite-boot-client-2-0.0.1-SNAPSHOT.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igniteserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igniteserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ignite-boot-client-0.0.1-SNAPSHOT.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,8 +285,9 @@
     <property name="FullScreen" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.26186132" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -429,10 +308,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Starter">
+    <configuration default="false" name="Starter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Starter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ignite-server" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Starter" />
-      <option name="VM_PARAMETERS" value="-DIGNITE_THREAD_DUMP_ON_EXCHANGE_TIMEOUT=true" />
+      <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -440,7 +334,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="igniteserver" />
+      <module name="ignite-server" />
       <envs />
       <method />
     </configuration>
@@ -847,12 +741,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Starter" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Starter (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Starter" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Starter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Starter (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -867,46 +763,60 @@
       <option name="presentableId" value="Default" />
       <updated>1499682343846</updated>
       <workItem from="1499682347972" duration="10048000" />
-      <workItem from="1499702286051" duration="17695000" />
+      <workItem from="1499702286051" duration="20858000" />
+      <workItem from="1499861028476" duration="4657000" />
+      <workItem from="1500388477857" duration="4188000" />
+      <workItem from="1500479620133" duration="1105000" />
+      <workItem from="1500639382465" duration="2905000" />
+      <workItem from="1500647614249" duration="816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27743000" />
+    <option name="totallyTimeSpent" value="45283000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21959943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21959943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27110156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -918,47 +828,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/messages/TcpDiscoveryCustomEventMessage.java</url>
-          <line>79</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/internal/DiscoveryDataPacket.java</url>
-          <line>277</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/internal/DiscoveryDataPacket.java</url>
-          <line>273</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/internal/DiscoveryDataPacket.java</url>
-          <line>155</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/ServerImpl.java</url>
-          <line>5169</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/ServerImpl.java</url>
-          <line>5330</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -967,16 +840,36 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ignite-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/messages/TcpDiscoveryCustomEventMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3254#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2059#2060#0" expanded="false" />
-            <element signature="e#2090#2091#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -984,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20715">
           <caret line="1565" column="48" lean-forward="false" selection-start-line="1565" selection-start-column="43" selection-end-line="1565" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,25 +884,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3525">
           <caret line="273" column="0" lean-forward="false" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar!/com/synisys/idm/dataset/internal/manager/DatasetCacheLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar!/com/synisys/idm/dataset/internal/manager/DatasetCacheLoader.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/internal/util/typedef/internal/U.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#1314#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,280 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64845">
           <caret line="4323" column="26" lean-forward="false" selection-start-line="4323" selection-start-column="26" selection-end-line="4323" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#315982#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#20395#20532#0" expanded="false" />
-            <element signature="e#20531#20532#0" expanded="false" />
-            <element signature="e#26573#26748#0" expanded="false" />
-            <element signature="e#26747#26748#0" expanded="false" />
-            <element signature="e#31137#31398#0" expanded="false" />
-            <element signature="e#31397#31398#0" expanded="false" />
-            <element signature="e#31461#31693#0" expanded="false" />
-            <element signature="e#31692#31693#0" expanded="false" />
-            <element signature="e#31754#31984#0" expanded="false" />
-            <element signature="e#31983#31984#0" expanded="false" />
-            <element signature="e#32043#32271#0" expanded="false" />
-            <element signature="e#32270#32271#0" expanded="false" />
-            <element signature="e#32328#32859#0" expanded="false" />
-            <element signature="e#32858#32859#0" expanded="false" />
-            <element signature="e#32917#33144#0" expanded="false" />
-            <element signature="e#33143#33144#0" expanded="false" />
-            <element signature="e#33204#33433#0" expanded="false" />
-            <element signature="e#33432#33433#0" expanded="false" />
-            <element signature="e#33495#33726#0" expanded="false" />
-            <element signature="e#33725#33726#0" expanded="false" />
-            <element signature="e#33784#34014#0" expanded="false" />
-            <element signature="e#34013#34014#0" expanded="false" />
-            <element signature="e#34073#34304#0" expanded="false" />
-            <element signature="e#34303#34304#0" expanded="false" />
-            <element signature="e#34361#34755#0" expanded="false" />
-            <element signature="e#34754#34755#0" expanded="false" />
-            <element signature="e#34815#35047#0" expanded="false" />
-            <element signature="e#35046#35047#0" expanded="false" />
-            <element signature="e#35113#35474#0" expanded="false" />
-            <element signature="e#35473#35474#0" expanded="false" />
-            <element signature="e#35691#36115#0" expanded="false" />
-            <element signature="e#36114#36115#0" expanded="false" />
-            <element signature="e#37918#37919#0" expanded="false" />
-            <element signature="e#37954#37955#0" expanded="false" />
-            <element signature="e#38075#38076#0" expanded="false" />
-            <element signature="e#38122#38123#0" expanded="false" />
-            <element signature="e#38299#38300#0" expanded="false" />
-            <element signature="e#38355#38356#0" expanded="false" />
-            <element signature="e#38521#38522#0" expanded="false" />
-            <element signature="e#38571#38572#0" expanded="false" />
-            <element signature="e#38743#38744#0" expanded="false" />
-            <element signature="e#38778#38779#0" expanded="false" />
-            <element signature="e#38898#38899#0" expanded="false" />
-            <element signature="e#38932#38933#0" expanded="false" />
-            <element signature="e#39173#39174#0" expanded="false" />
-            <element signature="e#39215#39216#0" expanded="false" />
-            <element signature="e#39820#39982#0" expanded="false" />
-            <element signature="e#39981#39982#0" expanded="false" />
-            <element signature="e#40927#40928#0" expanded="false" />
-            <element signature="e#40971#40972#0" expanded="false" />
-            <element signature="e#41326#41327#0" expanded="false" />
-            <element signature="e#41375#41376#0" expanded="false" />
-            <element signature="e#41780#41781#0" expanded="false" />
-            <element signature="e#41809#41810#0" expanded="false" />
-            <element signature="e#42071#42072#0" expanded="false" />
-            <element signature="e#42114#42115#0" expanded="false" />
-            <element signature="e#42407#42408#0" expanded="false" />
-            <element signature="e#42485#42486#0" expanded="false" />
-            <element signature="e#43053#43054#0" expanded="false" />
-            <element signature="e#43108#43109#0" expanded="false" />
-            <element signature="e#43443#43444#0" expanded="false" />
-            <element signature="e#43509#43510#0" expanded="false" />
-            <element signature="e#48923#48929#0" expanded="false" />
-            <element signature="e#57345#57346#0" expanded="false" />
-            <element signature="e#57397#57398#0" expanded="false" />
-            <element signature="e#61843#61844#0" expanded="false" />
-            <element signature="e#61882#61883#0" expanded="false" />
-            <element signature="e#62377#62378#0" expanded="false" />
-            <element signature="e#62448#62449#0" expanded="false" />
-            <element signature="e#62667#62668#0" expanded="false" />
-            <element signature="e#62736#62737#0" expanded="false" />
-            <element signature="e#65758#66045#0" expanded="false" />
-            <element signature="e#66044#66045#0" expanded="false" />
-            <element signature="e#71453#71761#0" expanded="false" />
-            <element signature="e#71760#71761#0" expanded="false" />
-            <element signature="e#78919#78920#0" expanded="false" />
-            <element signature="e#78970#78971#0" expanded="false" />
-            <element signature="e#80895#80896#0" expanded="false" />
-            <element signature="e#80933#80934#0" expanded="false" />
-            <element signature="e#81143#81144#0" expanded="false" />
-            <element signature="e#81195#81196#0" expanded="false" />
-            <element signature="e#89459#89460#0" expanded="false" />
-            <element signature="e#89516#89517#0" expanded="false" />
-            <element signature="e#89721#89722#0" expanded="false" />
-            <element signature="e#89778#89779#0" expanded="false" />
-            <element signature="e#91209#91210#0" expanded="false" />
-            <element signature="e#91271#91272#0" expanded="false" />
-            <element signature="e#91859#91860#0" expanded="false" />
-            <element signature="e#91917#91918#0" expanded="false" />
-            <element signature="e#92439#92440#0" expanded="false" />
-            <element signature="e#92496#92497#0" expanded="false" />
-            <element signature="e#93135#93136#0" expanded="false" />
-            <element signature="e#93191#93192#0" expanded="false" />
-            <element signature="e#93833#93834#0" expanded="false" />
-            <element signature="e#93891#93892#0" expanded="false" />
-            <element signature="e#95088#95089#0" expanded="false" />
-            <element signature="e#95148#95149#0" expanded="false" />
-            <element signature="e#97397#97398#0" expanded="false" />
-            <element signature="e#97463#97464#0" expanded="false" />
-            <element signature="e#98010#98011#0" expanded="false" />
-            <element signature="e#98077#98078#0" expanded="false" />
-            <element signature="e#101749#101750#0" expanded="false" />
-            <element signature="e#101821#101822#0" expanded="false" />
-            <element signature="e#102610#103251#0" expanded="false" />
-            <element signature="e#102782#102783#0" expanded="false" />
-            <element signature="e#102856#102857#0" expanded="false" />
-            <element signature="e#102994#102995#0" expanded="false" />
-            <element signature="e#103064#103065#0" expanded="false" />
-            <element signature="e#103118#103119#0" expanded="false" />
-            <element signature="e#103207#103208#0" expanded="false" />
-            <element signature="e#103250#103251#0" expanded="false" />
-            <element signature="e#107048#107619#0" expanded="false" />
-            <element signature="e#107618#107619#0" expanded="false" />
-            <element signature="e#120907#120908#0" expanded="false" />
-            <element signature="e#120958#120959#0" expanded="false" />
-            <element signature="e#137592#137593#0" expanded="false" />
-            <element signature="e#137635#137636#0" expanded="false" />
-            <element signature="e#146016#146017#0" expanded="false" />
-            <element signature="e#146070#146071#0" expanded="false" />
-            <element signature="e#179407#179408#0" expanded="false" />
-            <element signature="e#179471#179472#0" expanded="false" />
-            <element signature="e#179601#179602#0" expanded="false" />
-            <element signature="e#179660#179661#0" expanded="false" />
-            <element signature="e#179792#179793#0" expanded="false" />
-            <element signature="e#179850#179851#0" expanded="false" />
-            <element signature="e#179966#179967#0" expanded="false" />
-            <element signature="e#180033#180034#0" expanded="false" />
-            <element signature="e#180159#180160#0" expanded="false" />
-            <element signature="e#180217#180218#0" expanded="false" />
-            <element signature="e#180999#181000#0" expanded="false" />
-            <element signature="e#181062#181063#0" expanded="false" />
-            <element signature="e#183091#183092#0" expanded="false" />
-            <element signature="e#183151#183152#0" expanded="false" />
-            <element signature="e#190718#190719#0" expanded="false" />
-            <element signature="e#190760#190761#0" expanded="false" />
-            <element signature="e#195852#195853#0" expanded="false" />
-            <element signature="e#195929#195930#0" expanded="false" />
-            <element signature="e#199132#199133#0" expanded="false" />
-            <element signature="e#199172#199173#0" expanded="false" />
-            <element signature="e#199294#199295#0" expanded="false" />
-            <element signature="e#199325#199326#0" expanded="false" />
-            <element signature="e#199436#199437#0" expanded="false" />
-            <element signature="e#199464#199465#0" expanded="false" />
-            <element signature="e#199578#199579#0" expanded="false" />
-            <element signature="e#199607#199608#0" expanded="false" />
-            <element signature="e#199800#199801#0" expanded="false" />
-            <element signature="e#199828#199829#0" expanded="false" />
-            <element signature="e#199929#199930#0" expanded="false" />
-            <element signature="e#199959#199960#0" expanded="false" />
-            <element signature="e#200073#200074#0" expanded="false" />
-            <element signature="e#200105#200106#0" expanded="false" />
-            <element signature="e#200222#200223#0" expanded="false" />
-            <element signature="e#200251#200252#0" expanded="false" />
-            <element signature="e#200388#200389#0" expanded="false" />
-            <element signature="e#200417#200418#0" expanded="false" />
-            <element signature="e#200544#200545#0" expanded="false" />
-            <element signature="e#200573#200574#0" expanded="false" />
-            <element signature="e#200709#200710#0" expanded="false" />
-            <element signature="e#200737#200738#0" expanded="false" />
-            <element signature="e#200925#200926#0" expanded="false" />
-            <element signature="e#200951#200952#0" expanded="false" />
-            <element signature="e#201060#201061#0" expanded="false" />
-            <element signature="e#201089#201090#0" expanded="false" />
-            <element signature="e#201281#201282#0" expanded="false" />
-            <element signature="e#201311#201312#0" expanded="false" />
-            <element signature="e#201518#201519#0" expanded="false" />
-            <element signature="e#201548#201549#0" expanded="false" />
-            <element signature="e#201764#201765#0" expanded="false" />
-            <element signature="e#201803#201804#0" expanded="false" />
-            <element signature="e#202013#202014#0" expanded="false" />
-            <element signature="e#202050#202051#0" expanded="false" />
-            <element signature="e#202240#202241#0" expanded="false" />
-            <element signature="e#202267#202268#0" expanded="false" />
-            <element signature="e#202832#202833#0" expanded="false" />
-            <element signature="e#202863#202864#0" expanded="false" />
-            <element signature="e#203060#203061#0" expanded="false" />
-            <element signature="e#203087#203088#0" expanded="false" />
-            <element signature="e#203284#203285#0" expanded="false" />
-            <element signature="e#203311#203312#0" expanded="false" />
-            <element signature="e#203513#203514#0" expanded="false" />
-            <element signature="e#203541#203542#0" expanded="false" />
-            <element signature="e#203745#203746#0" expanded="false" />
-            <element signature="e#203773#203774#0" expanded="false" />
-            <element signature="e#203993#203994#0" expanded="false" />
-            <element signature="e#204023#204024#0" expanded="false" />
-            <element signature="e#204243#204244#0" expanded="false" />
-            <element signature="e#204273#204274#0" expanded="false" />
-            <element signature="e#204473#204474#0" expanded="false" />
-            <element signature="e#204501#204502#0" expanded="false" />
-            <element signature="e#204701#204702#0" expanded="false" />
-            <element signature="e#204729#204730#0" expanded="false" />
-            <element signature="e#204929#204930#0" expanded="false" />
-            <element signature="e#204957#204958#0" expanded="false" />
-            <element signature="e#205619#205620#0" expanded="false" />
-            <element signature="e#205647#205648#0" expanded="false" />
-            <element signature="e#205783#205784#0" expanded="false" />
-            <element signature="e#205817#205818#0" expanded="false" />
-            <element signature="e#205964#205965#0" expanded="false" />
-            <element signature="e#205997#205998#0" expanded="false" />
-            <element signature="e#206141#206142#0" expanded="false" />
-            <element signature="e#206177#206178#0" expanded="false" />
-            <element signature="e#206315#206316#0" expanded="false" />
-            <element signature="e#206349#206350#0" expanded="false" />
-            <element signature="e#208311#208312#0" expanded="false" />
-            <element signature="e#208374#208375#0" expanded="false" />
-            <element signature="e#208500#208501#0" expanded="false" />
-            <element signature="e#208533#208534#0" expanded="false" />
-            <element signature="e#208668#208669#0" expanded="false" />
-            <element signature="e#208700#208701#0" expanded="false" />
-            <element signature="e#208913#208914#0" expanded="false" />
-            <element signature="e#208976#208977#0" expanded="false" />
-            <element signature="e#228275#228276#0" expanded="false" />
-            <element signature="e#228351#228352#0" expanded="false" />
-            <element signature="e#228583#228584#0" expanded="false" />
-            <element signature="e#228639#228640#0" expanded="false" />
-            <element signature="e#229228#229398#0" expanded="false" />
-            <element signature="e#229397#229398#0" expanded="false" />
-            <element signature="e#229689#229690#0" expanded="false" />
-            <element signature="e#229729#229730#0" expanded="false" />
-            <element signature="e#239020#239021#0" expanded="false" />
-            <element signature="e#239066#239067#0" expanded="false" />
-            <element signature="e#239989#240363#0" expanded="false" />
-            <element signature="e#240362#240363#0" expanded="false" />
-            <element signature="e#240940#241093#0" expanded="false" />
-            <element signature="e#241092#241093#0" expanded="false" />
-            <element signature="e#241388#241525#0" expanded="false" />
-            <element signature="e#241524#241525#0" expanded="false" />
-            <element signature="e#241821#241983#0" expanded="false" />
-            <element signature="e#241982#241983#0" expanded="false" />
-            <element signature="e#243210#243211#0" expanded="false" />
-            <element signature="e#243235#243236#0" expanded="false" />
-            <element signature="e#245483#245492#0" expanded="false" />
-            <element signature="e#248818#248819#0" expanded="false" />
-            <element signature="e#248877#248878#0" expanded="false" />
-            <element signature="e#265446#265447#0" expanded="false" />
-            <element signature="e#265484#265485#0" expanded="false" />
-            <element signature="e#265582#265583#0" expanded="false" />
-            <element signature="e#265616#265617#0" expanded="false" />
-            <element signature="e#267041#267042#0" expanded="false" />
-            <element signature="e#267084#267085#0" expanded="false" />
-            <element signature="e#267745#267746#0" expanded="false" />
-            <element signature="e#267824#267825#0" expanded="false" />
-            <element signature="e#270756#270757#0" expanded="false" />
-            <element signature="e#270821#270822#0" expanded="false" />
-            <element signature="e#284277#284278#0" expanded="false" />
-            <element signature="e#284306#284307#0" expanded="false" />
-            <element signature="e#294864#294865#0" expanded="false" />
-            <element signature="e#294919#294920#0" expanded="false" />
-            <element signature="e#295542#295543#0" expanded="false" />
-            <element signature="e#295597#295598#0" expanded="false" />
-            <element signature="e#295865#295866#0" expanded="false" />
-            <element signature="e#295926#295927#0" expanded="false" />
-            <element signature="e#296714#297471#0" expanded="false" />
-            <element signature="e#297470#297471#0" expanded="false" />
-            <element signature="e#304995#304996#0" expanded="false" />
-            <element signature="e#305041#305042#0" expanded="false" />
-            <element signature="e#305183#305184#0" expanded="false" />
-            <element signature="e#305227#305228#0" expanded="false" />
-            <element signature="e#305370#305371#0" expanded="false" />
-            <element signature="e#305416#305417#0" expanded="false" />
-            <element signature="e#306108#306109#0" expanded="false" />
-            <element signature="e#306161#306162#0" expanded="false" />
-            <element signature="e#313505#313506#0" expanded="false" />
-            <element signature="e#313549#313550#0" expanded="false" />
-            <element signature="e#313801#313802#0" expanded="false" />
-            <element signature="e#313853#313854#0" expanded="false" />
-            <element signature="e#315822#315823#0" expanded="false" />
-            <element signature="e#315868#315869#0" expanded="false" />
-            <element signature="e#315911#315912#0" expanded="false" />
-            <element signature="e#315961#315962#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1299,93 +906,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77505">
           <caret line="5167" column="0" lean-forward="false" selection-start-line="5167" selection-start-column="0" selection-end-line="5167" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#258951#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#12593#12594#0" expanded="false" />
-            <element signature="e#12623#12624#0" expanded="false" />
-            <element signature="e#12855#12856#0" expanded="false" />
-            <element signature="e#12899#12900#0" expanded="false" />
-            <element signature="e#13628#13629#0" expanded="false" />
-            <element signature="e#13684#13685#0" expanded="false" />
-            <element signature="e#54114#54115#0" expanded="false" />
-            <element signature="e#54161#54162#0" expanded="false" />
-            <element signature="e#60228#60229#0" expanded="false" />
-            <element signature="e#60285#60286#0" expanded="false" />
-            <element signature="e#60557#60558#0" expanded="false" />
-            <element signature="e#60589#60590#0" expanded="false" />
-            <element signature="e#61491#61492#0" expanded="false" />
-            <element signature="e#61518#61519#0" expanded="false" />
-            <element signature="e#65455#65456#0" expanded="false" />
-            <element signature="e#65512#65513#0" expanded="false" />
-            <element signature="e#67324#67712#0" expanded="false" />
-            <element signature="e#67625#67644#0" expanded="false" />
-            <element signature="e#67711#67712#0" expanded="false" />
-            <element signature="e#79438#79439#0" expanded="false" />
-            <element signature="e#79507#79508#0" expanded="false" />
-            <element signature="e#83040#83041#0" expanded="false" />
-            <element signature="e#83089#83090#0" expanded="false" />
-            <element signature="e#83770#83771#0" expanded="false" />
-            <element signature="e#83821#83822#0" expanded="false" />
-            <element signature="e#84222#84223#0" expanded="false" />
-            <element signature="e#84295#84296#0" expanded="false" />
-            <element signature="e#88769#89545#0" expanded="false" />
-            <element signature="e#89544#89545#0" expanded="false" />
-            <element signature="e#131658#133542#0" expanded="false" />
-            <element signature="e#133541#133542#0" expanded="false" />
-            <element signature="e#133922#136523#0" expanded="false" />
-            <element signature="e#136522#136523#0" expanded="false" />
-            <element signature="e#137511#139543#0" expanded="false" />
-            <element signature="e#139542#139543#0" expanded="false" />
-            <element signature="e#140270#142128#0" expanded="false" />
-            <element signature="e#142127#142128#0" expanded="false" />
-            <element signature="e#142932#145002#0" expanded="false" />
-            <element signature="e#145001#145002#0" expanded="false" />
-            <element signature="e#148797#150901#0" expanded="false" />
-            <element signature="e#150900#150901#0" expanded="false" />
-            <element signature="e#164022#164030#0" expanded="false" />
-            <element signature="e#191749#194989#0" expanded="false" />
-            <element signature="e#194988#194989#0" expanded="false" />
-            <element signature="e#198957#198980#0" expanded="false" />
-            <element signature="e#204879#206254#0" expanded="false" />
-            <element signature="e#206253#206254#0" expanded="false" />
-            <element signature="e#249587#249588#0" expanded="false" />
-            <element signature="e#249637#249638#0" expanded="false" />
-            <element signature="e#249740#249741#0" expanded="false" />
-            <element signature="e#249778#249779#0" expanded="false" />
-            <element signature="e#249904#249905#0" expanded="false" />
-            <element signature="e#249950#249951#0" expanded="false" />
-            <element signature="e#250065#250066#0" expanded="false" />
-            <element signature="e#250110#250111#0" expanded="false" />
-            <element signature="e#257836#257837#0" expanded="false" />
-            <element signature="e#257903#257904#0" expanded="false" />
-            <element signature="e#257993#257994#0" expanded="false" />
-            <element signature="e#258036#258037#0" expanded="false" />
-            <element signature="e#258707#258708#0" expanded="false" />
-            <element signature="e#258742#258743#0" expanded="false" />
-            <element signature="e#258901#258902#0" expanded="false" />
-            <element signature="e#258941#258942#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar!/com/synisys/idm/dataset/internal/manager/PermissionKeyCacheLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar!/com/synisys/idm/dataset/internal/manager/PermissionKeyCacheLoader.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/internal/marshaller/optimized/OptimizedMarshaller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4971#4972#0" expanded="false" />
-            <element signature="e#5015#5016#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1436,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20715">
           <caret line="1565" column="48" lean-forward="false" selection-start-line="1565" selection-start-column="43" selection-end-line="1565" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1444,9 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#1314#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1454,280 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59205">
           <caret line="4323" column="26" lean-forward="false" selection-start-line="4323" selection-start-column="26" selection-end-line="4323" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#315982#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#20395#20532#0" expanded="false" />
-            <element signature="e#20531#20532#0" expanded="false" />
-            <element signature="e#26573#26748#0" expanded="false" />
-            <element signature="e#26747#26748#0" expanded="false" />
-            <element signature="e#31137#31398#0" expanded="false" />
-            <element signature="e#31397#31398#0" expanded="false" />
-            <element signature="e#31461#31693#0" expanded="false" />
-            <element signature="e#31692#31693#0" expanded="false" />
-            <element signature="e#31754#31984#0" expanded="false" />
-            <element signature="e#31983#31984#0" expanded="false" />
-            <element signature="e#32043#32271#0" expanded="false" />
-            <element signature="e#32270#32271#0" expanded="false" />
-            <element signature="e#32328#32859#0" expanded="false" />
-            <element signature="e#32858#32859#0" expanded="false" />
-            <element signature="e#32917#33144#0" expanded="false" />
-            <element signature="e#33143#33144#0" expanded="false" />
-            <element signature="e#33204#33433#0" expanded="false" />
-            <element signature="e#33432#33433#0" expanded="false" />
-            <element signature="e#33495#33726#0" expanded="false" />
-            <element signature="e#33725#33726#0" expanded="false" />
-            <element signature="e#33784#34014#0" expanded="false" />
-            <element signature="e#34013#34014#0" expanded="false" />
-            <element signature="e#34073#34304#0" expanded="false" />
-            <element signature="e#34303#34304#0" expanded="false" />
-            <element signature="e#34361#34755#0" expanded="false" />
-            <element signature="e#34754#34755#0" expanded="false" />
-            <element signature="e#34815#35047#0" expanded="false" />
-            <element signature="e#35046#35047#0" expanded="false" />
-            <element signature="e#35113#35474#0" expanded="false" />
-            <element signature="e#35473#35474#0" expanded="false" />
-            <element signature="e#35691#36115#0" expanded="false" />
-            <element signature="e#36114#36115#0" expanded="false" />
-            <element signature="e#37918#37919#0" expanded="false" />
-            <element signature="e#37954#37955#0" expanded="false" />
-            <element signature="e#38075#38076#0" expanded="false" />
-            <element signature="e#38122#38123#0" expanded="false" />
-            <element signature="e#38299#38300#0" expanded="false" />
-            <element signature="e#38355#38356#0" expanded="false" />
-            <element signature="e#38521#38522#0" expanded="false" />
-            <element signature="e#38571#38572#0" expanded="false" />
-            <element signature="e#38743#38744#0" expanded="false" />
-            <element signature="e#38778#38779#0" expanded="false" />
-            <element signature="e#38898#38899#0" expanded="false" />
-            <element signature="e#38932#38933#0" expanded="false" />
-            <element signature="e#39173#39174#0" expanded="false" />
-            <element signature="e#39215#39216#0" expanded="false" />
-            <element signature="e#39820#39982#0" expanded="false" />
-            <element signature="e#39981#39982#0" expanded="false" />
-            <element signature="e#40927#40928#0" expanded="false" />
-            <element signature="e#40971#40972#0" expanded="false" />
-            <element signature="e#41326#41327#0" expanded="false" />
-            <element signature="e#41375#41376#0" expanded="false" />
-            <element signature="e#41780#41781#0" expanded="false" />
-            <element signature="e#41809#41810#0" expanded="false" />
-            <element signature="e#42071#42072#0" expanded="false" />
-            <element signature="e#42114#42115#0" expanded="false" />
-            <element signature="e#42407#42408#0" expanded="false" />
-            <element signature="e#42485#42486#0" expanded="false" />
-            <element signature="e#43053#43054#0" expanded="false" />
-            <element signature="e#43108#43109#0" expanded="false" />
-            <element signature="e#43443#43444#0" expanded="false" />
-            <element signature="e#43509#43510#0" expanded="false" />
-            <element signature="e#48923#48929#0" expanded="false" />
-            <element signature="e#57345#57346#0" expanded="false" />
-            <element signature="e#57397#57398#0" expanded="false" />
-            <element signature="e#61843#61844#0" expanded="false" />
-            <element signature="e#61882#61883#0" expanded="false" />
-            <element signature="e#62377#62378#0" expanded="false" />
-            <element signature="e#62448#62449#0" expanded="false" />
-            <element signature="e#62667#62668#0" expanded="false" />
-            <element signature="e#62736#62737#0" expanded="false" />
-            <element signature="e#65758#66045#0" expanded="false" />
-            <element signature="e#66044#66045#0" expanded="false" />
-            <element signature="e#71453#71761#0" expanded="false" />
-            <element signature="e#71760#71761#0" expanded="false" />
-            <element signature="e#78919#78920#0" expanded="false" />
-            <element signature="e#78970#78971#0" expanded="false" />
-            <element signature="e#80895#80896#0" expanded="false" />
-            <element signature="e#80933#80934#0" expanded="false" />
-            <element signature="e#81143#81144#0" expanded="false" />
-            <element signature="e#81195#81196#0" expanded="false" />
-            <element signature="e#89459#89460#0" expanded="false" />
-            <element signature="e#89516#89517#0" expanded="false" />
-            <element signature="e#89721#89722#0" expanded="false" />
-            <element signature="e#89778#89779#0" expanded="false" />
-            <element signature="e#91209#91210#0" expanded="false" />
-            <element signature="e#91271#91272#0" expanded="false" />
-            <element signature="e#91859#91860#0" expanded="false" />
-            <element signature="e#91917#91918#0" expanded="false" />
-            <element signature="e#92439#92440#0" expanded="false" />
-            <element signature="e#92496#92497#0" expanded="false" />
-            <element signature="e#93135#93136#0" expanded="false" />
-            <element signature="e#93191#93192#0" expanded="false" />
-            <element signature="e#93833#93834#0" expanded="false" />
-            <element signature="e#93891#93892#0" expanded="false" />
-            <element signature="e#95088#95089#0" expanded="false" />
-            <element signature="e#95148#95149#0" expanded="false" />
-            <element signature="e#97397#97398#0" expanded="false" />
-            <element signature="e#97463#97464#0" expanded="false" />
-            <element signature="e#98010#98011#0" expanded="false" />
-            <element signature="e#98077#98078#0" expanded="false" />
-            <element signature="e#101749#101750#0" expanded="false" />
-            <element signature="e#101821#101822#0" expanded="false" />
-            <element signature="e#102610#103251#0" expanded="false" />
-            <element signature="e#102782#102783#0" expanded="false" />
-            <element signature="e#102856#102857#0" expanded="false" />
-            <element signature="e#102994#102995#0" expanded="false" />
-            <element signature="e#103064#103065#0" expanded="false" />
-            <element signature="e#103118#103119#0" expanded="false" />
-            <element signature="e#103207#103208#0" expanded="false" />
-            <element signature="e#103250#103251#0" expanded="false" />
-            <element signature="e#107048#107619#0" expanded="false" />
-            <element signature="e#107618#107619#0" expanded="false" />
-            <element signature="e#120907#120908#0" expanded="false" />
-            <element signature="e#120958#120959#0" expanded="false" />
-            <element signature="e#137592#137593#0" expanded="false" />
-            <element signature="e#137635#137636#0" expanded="false" />
-            <element signature="e#146016#146017#0" expanded="false" />
-            <element signature="e#146070#146071#0" expanded="false" />
-            <element signature="e#179407#179408#0" expanded="false" />
-            <element signature="e#179471#179472#0" expanded="false" />
-            <element signature="e#179601#179602#0" expanded="false" />
-            <element signature="e#179660#179661#0" expanded="false" />
-            <element signature="e#179792#179793#0" expanded="false" />
-            <element signature="e#179850#179851#0" expanded="false" />
-            <element signature="e#179966#179967#0" expanded="false" />
-            <element signature="e#180033#180034#0" expanded="false" />
-            <element signature="e#180159#180160#0" expanded="false" />
-            <element signature="e#180217#180218#0" expanded="false" />
-            <element signature="e#180999#181000#0" expanded="false" />
-            <element signature="e#181062#181063#0" expanded="false" />
-            <element signature="e#183091#183092#0" expanded="false" />
-            <element signature="e#183151#183152#0" expanded="false" />
-            <element signature="e#190718#190719#0" expanded="false" />
-            <element signature="e#190760#190761#0" expanded="false" />
-            <element signature="e#195852#195853#0" expanded="false" />
-            <element signature="e#195929#195930#0" expanded="false" />
-            <element signature="e#199132#199133#0" expanded="false" />
-            <element signature="e#199172#199173#0" expanded="false" />
-            <element signature="e#199294#199295#0" expanded="false" />
-            <element signature="e#199325#199326#0" expanded="false" />
-            <element signature="e#199436#199437#0" expanded="false" />
-            <element signature="e#199464#199465#0" expanded="false" />
-            <element signature="e#199578#199579#0" expanded="false" />
-            <element signature="e#199607#199608#0" expanded="false" />
-            <element signature="e#199800#199801#0" expanded="false" />
-            <element signature="e#199828#199829#0" expanded="false" />
-            <element signature="e#199929#199930#0" expanded="false" />
-            <element signature="e#199959#199960#0" expanded="false" />
-            <element signature="e#200073#200074#0" expanded="false" />
-            <element signature="e#200105#200106#0" expanded="false" />
-            <element signature="e#200222#200223#0" expanded="false" />
-            <element signature="e#200251#200252#0" expanded="false" />
-            <element signature="e#200388#200389#0" expanded="false" />
-            <element signature="e#200417#200418#0" expanded="false" />
-            <element signature="e#200544#200545#0" expanded="false" />
-            <element signature="e#200573#200574#0" expanded="false" />
-            <element signature="e#200709#200710#0" expanded="false" />
-            <element signature="e#200737#200738#0" expanded="false" />
-            <element signature="e#200925#200926#0" expanded="false" />
-            <element signature="e#200951#200952#0" expanded="false" />
-            <element signature="e#201060#201061#0" expanded="false" />
-            <element signature="e#201089#201090#0" expanded="false" />
-            <element signature="e#201281#201282#0" expanded="false" />
-            <element signature="e#201311#201312#0" expanded="false" />
-            <element signature="e#201518#201519#0" expanded="false" />
-            <element signature="e#201548#201549#0" expanded="false" />
-            <element signature="e#201764#201765#0" expanded="false" />
-            <element signature="e#201803#201804#0" expanded="false" />
-            <element signature="e#202013#202014#0" expanded="false" />
-            <element signature="e#202050#202051#0" expanded="false" />
-            <element signature="e#202240#202241#0" expanded="false" />
-            <element signature="e#202267#202268#0" expanded="false" />
-            <element signature="e#202832#202833#0" expanded="false" />
-            <element signature="e#202863#202864#0" expanded="false" />
-            <element signature="e#203060#203061#0" expanded="false" />
-            <element signature="e#203087#203088#0" expanded="false" />
-            <element signature="e#203284#203285#0" expanded="false" />
-            <element signature="e#203311#203312#0" expanded="false" />
-            <element signature="e#203513#203514#0" expanded="false" />
-            <element signature="e#203541#203542#0" expanded="false" />
-            <element signature="e#203745#203746#0" expanded="false" />
-            <element signature="e#203773#203774#0" expanded="false" />
-            <element signature="e#203993#203994#0" expanded="false" />
-            <element signature="e#204023#204024#0" expanded="false" />
-            <element signature="e#204243#204244#0" expanded="false" />
-            <element signature="e#204273#204274#0" expanded="false" />
-            <element signature="e#204473#204474#0" expanded="false" />
-            <element signature="e#204501#204502#0" expanded="false" />
-            <element signature="e#204701#204702#0" expanded="false" />
-            <element signature="e#204729#204730#0" expanded="false" />
-            <element signature="e#204929#204930#0" expanded="false" />
-            <element signature="e#204957#204958#0" expanded="false" />
-            <element signature="e#205619#205620#0" expanded="false" />
-            <element signature="e#205647#205648#0" expanded="false" />
-            <element signature="e#205783#205784#0" expanded="false" />
-            <element signature="e#205817#205818#0" expanded="false" />
-            <element signature="e#205964#205965#0" expanded="false" />
-            <element signature="e#205997#205998#0" expanded="false" />
-            <element signature="e#206141#206142#0" expanded="false" />
-            <element signature="e#206177#206178#0" expanded="false" />
-            <element signature="e#206315#206316#0" expanded="false" />
-            <element signature="e#206349#206350#0" expanded="false" />
-            <element signature="e#208311#208312#0" expanded="false" />
-            <element signature="e#208374#208375#0" expanded="false" />
-            <element signature="e#208500#208501#0" expanded="false" />
-            <element signature="e#208533#208534#0" expanded="false" />
-            <element signature="e#208668#208669#0" expanded="false" />
-            <element signature="e#208700#208701#0" expanded="false" />
-            <element signature="e#208913#208914#0" expanded="false" />
-            <element signature="e#208976#208977#0" expanded="false" />
-            <element signature="e#228275#228276#0" expanded="false" />
-            <element signature="e#228351#228352#0" expanded="false" />
-            <element signature="e#228583#228584#0" expanded="false" />
-            <element signature="e#228639#228640#0" expanded="false" />
-            <element signature="e#229228#229398#0" expanded="false" />
-            <element signature="e#229397#229398#0" expanded="false" />
-            <element signature="e#229689#229690#0" expanded="false" />
-            <element signature="e#229729#229730#0" expanded="false" />
-            <element signature="e#239020#239021#0" expanded="false" />
-            <element signature="e#239066#239067#0" expanded="false" />
-            <element signature="e#239989#240363#0" expanded="false" />
-            <element signature="e#240362#240363#0" expanded="false" />
-            <element signature="e#240940#241093#0" expanded="false" />
-            <element signature="e#241092#241093#0" expanded="false" />
-            <element signature="e#241388#241525#0" expanded="false" />
-            <element signature="e#241524#241525#0" expanded="false" />
-            <element signature="e#241821#241983#0" expanded="false" />
-            <element signature="e#241982#241983#0" expanded="false" />
-            <element signature="e#243210#243211#0" expanded="false" />
-            <element signature="e#243235#243236#0" expanded="false" />
-            <element signature="e#245483#245492#0" expanded="false" />
-            <element signature="e#248818#248819#0" expanded="false" />
-            <element signature="e#248877#248878#0" expanded="false" />
-            <element signature="e#265446#265447#0" expanded="false" />
-            <element signature="e#265484#265485#0" expanded="false" />
-            <element signature="e#265582#265583#0" expanded="false" />
-            <element signature="e#265616#265617#0" expanded="false" />
-            <element signature="e#267041#267042#0" expanded="false" />
-            <element signature="e#267084#267085#0" expanded="false" />
-            <element signature="e#267745#267746#0" expanded="false" />
-            <element signature="e#267824#267825#0" expanded="false" />
-            <element signature="e#270756#270757#0" expanded="false" />
-            <element signature="e#270821#270822#0" expanded="false" />
-            <element signature="e#284277#284278#0" expanded="false" />
-            <element signature="e#284306#284307#0" expanded="false" />
-            <element signature="e#294864#294865#0" expanded="false" />
-            <element signature="e#294919#294920#0" expanded="false" />
-            <element signature="e#295542#295543#0" expanded="false" />
-            <element signature="e#295597#295598#0" expanded="false" />
-            <element signature="e#295865#295866#0" expanded="false" />
-            <element signature="e#295926#295927#0" expanded="false" />
-            <element signature="e#296714#297471#0" expanded="false" />
-            <element signature="e#297470#297471#0" expanded="false" />
-            <element signature="e#304995#304996#0" expanded="false" />
-            <element signature="e#305041#305042#0" expanded="false" />
-            <element signature="e#305183#305184#0" expanded="false" />
-            <element signature="e#305227#305228#0" expanded="false" />
-            <element signature="e#305370#305371#0" expanded="false" />
-            <element signature="e#305416#305417#0" expanded="false" />
-            <element signature="e#306108#306109#0" expanded="false" />
-            <element signature="e#306161#306162#0" expanded="false" />
-            <element signature="e#313505#313506#0" expanded="false" />
-            <element signature="e#313549#313550#0" expanded="false" />
-            <element signature="e#313801#313802#0" expanded="false" />
-            <element signature="e#313853#313854#0" expanded="false" />
-            <element signature="e#315822#315823#0" expanded="false" />
-            <element signature="e#315868#315869#0" expanded="false" />
-            <element signature="e#315911#315912#0" expanded="false" />
-            <element signature="e#315961#315962#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1735,146 +985,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4971#4972#0" expanded="false" />
-            <element signature="e#5015#5016#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar!/com/synisys/idm/dataset/internal/manager/PermissionKeyCacheLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/ServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74475">
-          <caret line="5167" column="0" lean-forward="false" selection-start-line="5167" selection-start-column="0" selection-end-line="5167" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#258951#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#12593#12594#0" expanded="false" />
-            <element signature="e#12623#12624#0" expanded="false" />
-            <element signature="e#12855#12856#0" expanded="false" />
-            <element signature="e#12899#12900#0" expanded="false" />
-            <element signature="e#13628#13629#0" expanded="false" />
-            <element signature="e#13684#13685#0" expanded="false" />
-            <element signature="e#54114#54115#0" expanded="false" />
-            <element signature="e#54161#54162#0" expanded="false" />
-            <element signature="e#60228#60229#0" expanded="false" />
-            <element signature="e#60285#60286#0" expanded="false" />
-            <element signature="e#60557#60558#0" expanded="false" />
-            <element signature="e#60589#60590#0" expanded="false" />
-            <element signature="e#61491#61492#0" expanded="false" />
-            <element signature="e#61518#61519#0" expanded="false" />
-            <element signature="e#65455#65456#0" expanded="false" />
-            <element signature="e#65512#65513#0" expanded="false" />
-            <element signature="e#67324#67712#0" expanded="false" />
-            <element signature="e#67625#67644#0" expanded="false" />
-            <element signature="e#67711#67712#0" expanded="false" />
-            <element signature="e#79438#79439#0" expanded="false" />
-            <element signature="e#79507#79508#0" expanded="false" />
-            <element signature="e#83040#83041#0" expanded="false" />
-            <element signature="e#83089#83090#0" expanded="false" />
-            <element signature="e#83770#83771#0" expanded="false" />
-            <element signature="e#83821#83822#0" expanded="false" />
-            <element signature="e#84222#84223#0" expanded="false" />
-            <element signature="e#84295#84296#0" expanded="false" />
-            <element signature="e#88769#89545#0" expanded="false" />
-            <element signature="e#89544#89545#0" expanded="false" />
-            <element signature="e#131658#133542#0" expanded="false" />
-            <element signature="e#133541#133542#0" expanded="false" />
-            <element signature="e#133922#136523#0" expanded="false" />
-            <element signature="e#136522#136523#0" expanded="false" />
-            <element signature="e#137511#139543#0" expanded="false" />
-            <element signature="e#139542#139543#0" expanded="false" />
-            <element signature="e#140270#142128#0" expanded="false" />
-            <element signature="e#142127#142128#0" expanded="false" />
-            <element signature="e#142932#145002#0" expanded="false" />
-            <element signature="e#145001#145002#0" expanded="false" />
-            <element signature="e#148797#150901#0" expanded="false" />
-            <element signature="e#150900#150901#0" expanded="false" />
-            <element signature="e#164022#164030#0" expanded="false" />
-            <element signature="e#191749#194989#0" expanded="false" />
-            <element signature="e#194988#194989#0" expanded="false" />
-            <element signature="e#198957#198980#0" expanded="false" />
-            <element signature="e#204879#206254#0" expanded="false" />
-            <element signature="e#206253#206254#0" expanded="false" />
-            <element signature="e#249587#249588#0" expanded="false" />
-            <element signature="e#249637#249638#0" expanded="false" />
-            <element signature="e#249740#249741#0" expanded="false" />
-            <element signature="e#249778#249779#0" expanded="false" />
-            <element signature="e#249904#249905#0" expanded="false" />
-            <element signature="e#249950#249951#0" expanded="false" />
-            <element signature="e#250065#250066#0" expanded="false" />
-            <element signature="e#250110#250111#0" expanded="false" />
-            <element signature="e#257836#257837#0" expanded="false" />
-            <element signature="e#257903#257904#0" expanded="false" />
-            <element signature="e#257993#257994#0" expanded="false" />
-            <element signature="e#258036#258037#0" expanded="false" />
-            <element signature="e#258707#258708#0" expanded="false" />
-            <element signature="e#258742#258743#0" expanded="false" />
-            <element signature="e#258901#258902#0" expanded="false" />
-            <element signature="e#258941#258942#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/messages/TcpDiscoveryCustomEventMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3254#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2059#2060#0" expanded="false" />
-            <element signature="e#2090#2091#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar!/com/synisys/idm/dataset/internal/manager/DatasetCacheLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/internal/DiscoveryDataPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ignite-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="30" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar!/com/synisys/idm/dataset/internal/manager/DatasetCacheLoader.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.8.3/hazelcast-3.8.3.jar!/com/hazelcast/core/Hazelcast.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.8.3/hazelcast-3.8.3.jar!/hazelcast-default.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3556">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1882,28 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="1170" column="36" lean-forward="false" selection-start-line="1170" selection-start-column="36" selection-end-line="1170" selection-end-column="36" />
-          <folding>
-            <element signature="e#44680#44681#0" expanded="true" />
-            <element signature="e#44732#44733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Starter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1911,7 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1919,94 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47268#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5727#5728#0" expanded="false" />
-            <element signature="e#5775#5776#0" expanded="false" />
-            <element signature="e#6016#6017#0" expanded="false" />
-            <element signature="e#6050#6051#0" expanded="false" />
-            <element signature="e#6679#6680#0" expanded="false" />
-            <element signature="e#6722#6723#0" expanded="false" />
-            <element signature="e#7753#7754#0" expanded="false" />
-            <element signature="e#7797#7798#0" expanded="false" />
-            <element signature="e#7993#7994#0" expanded="false" />
-            <element signature="e#8026#8027#0" expanded="false" />
-            <element signature="e#8188#8189#0" expanded="false" />
-            <element signature="e#8223#8224#0" expanded="false" />
-            <element signature="e#8393#8394#0" expanded="false" />
-            <element signature="e#8427#8428#0" expanded="false" />
-            <element signature="e#8602#8603#0" expanded="false" />
-            <element signature="e#8638#8639#0" expanded="false" />
-            <element signature="e#10051#10052#0" expanded="false" />
-            <element signature="e#10084#10085#0" expanded="false" />
-            <element signature="e#11517#11518#0" expanded="false" />
-            <element signature="e#11552#11553#0" expanded="false" />
-            <element signature="e#13091#13092#0" expanded="false" />
-            <element signature="e#13126#13127#0" expanded="false" />
-            <element signature="e#14570#14571#0" expanded="false" />
-            <element signature="e#14604#14605#0" expanded="false" />
-            <element signature="e#16022#16023#0" expanded="false" />
-            <element signature="e#16056#16057#0" expanded="false" />
-            <element signature="e#17451#17452#0" expanded="false" />
-            <element signature="e#17484#17485#0" expanded="false" />
-            <element signature="e#18986#18987#0" expanded="false" />
-            <element signature="e#19024#19025#0" expanded="false" />
-            <element signature="e#20594#20595#0" expanded="false" />
-            <element signature="e#20637#20638#0" expanded="false" />
-            <element signature="e#22219#22220#0" expanded="false" />
-            <element signature="e#22259#22260#0" expanded="false" />
-            <element signature="e#24802#24803#0" expanded="false" />
-            <element signature="e#24845#24846#0" expanded="false" />
-            <element signature="e#25514#25515#0" expanded="false" />
-            <element signature="e#25549#25550#0" expanded="false" />
-            <element signature="e#32515#32516#0" expanded="false" />
-            <element signature="e#32553#32554#0" expanded="false" />
-            <element signature="e#32979#32980#0" expanded="false" />
-            <element signature="e#33024#33025#0" expanded="false" />
-            <element signature="e#33510#33511#0" expanded="false" />
-            <element signature="e#33557#33558#0" expanded="false" />
-            <element signature="e#36214#36215#0" expanded="false" />
-            <element signature="e#36262#36263#0" expanded="false" />
-            <element signature="e#36702#36703#0" expanded="false" />
-            <element signature="e#36756#36757#0" expanded="false" />
-            <element signature="e#37035#37036#0" expanded="false" />
-            <element signature="e#37079#37080#0" expanded="false" />
-            <element signature="e#38537#38538#0" expanded="false" />
-            <element signature="e#38577#38578#0" expanded="false" />
-            <element signature="e#39012#39013#0" expanded="false" />
-            <element signature="e#39048#39049#0" expanded="false" />
-            <element signature="e#40514#40515#0" expanded="false" />
-            <element signature="e#40559#40560#0" expanded="false" />
-            <element signature="e#40791#40792#0" expanded="false" />
-            <element signature="e#40828#40829#0" expanded="false" />
-            <element signature="e#41020#41021#0" expanded="false" />
-            <element signature="e#41057#41058#0" expanded="false" />
-            <element signature="e#41403#41404#0" expanded="false" />
-            <element signature="e#41441#41442#0" expanded="false" />
-            <element signature="e#41697#41698#0" expanded="false" />
-            <element signature="e#41739#41740#0" expanded="false" />
-            <element signature="e#41968#41969#0" expanded="false" />
-            <element signature="e#42011#42012#0" expanded="false" />
-            <element signature="e#42380#42381#0" expanded="false" />
-            <element signature="e#42430#42431#0" expanded="false" />
-            <element signature="e#42852#42853#0" expanded="false" />
-            <element signature="e#42889#42890#0" expanded="false" />
-            <element signature="e#43099#43100#0" expanded="false" />
-            <element signature="e#43133#43134#0" expanded="false" />
-            <element signature="e#43458#43459#0" expanded="false" />
-            <element signature="e#43499#43500#0" expanded="false" />
-            <element signature="e#43754#43755#0" expanded="false" />
-            <element signature="e#43793#43794#0" expanded="false" />
-            <element signature="e#44103#44104#0" expanded="false" />
-            <element signature="e#44143#44144#0" expanded="false" />
-            <element signature="e#44402#44403#0" expanded="false" />
-            <element signature="e#44435#44436#0" expanded="false" />
-            <element signature="e#44714#44715#0" expanded="false" />
-            <element signature="e#44747#44748#0" expanded="false" />
-            <element signature="e#45169#45170#0" expanded="false" />
-            <element signature="e#45216#45217#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2014,20 +1028,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#5673#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1233#1234#0" expanded="false" />
-            <element signature="e#1287#1288#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.8.3/hazelcast-3.8.3-sources.jar!/com/hazelcast/config/UserCodeDeploymentConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/internal/DiscoveryDataPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="273" column="0" lean-forward="false" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/messages/TcpDiscoveryCustomEventMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.0.0/ignite-core-2.0.0-sources.jar!/org/apache/ignite/spi/discovery/tcp/ServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="5169" column="0" lean-forward="false" selection-start-line="5169" selection-start-column="0" selection-end-line="5169" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/another-ignite-boot-client-2-0.0.1-SNAPSHOT.jar!/com/example/demo/AnotherLoader.class" />
+    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar!/com/synisys/idm/dataset/internal/manager/PermissionKeyCacheLoader.class" />
+    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.3.jar!/com/synisys/idm/dataset/ApplicationContextProvider.class" />
+    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.4.dev.0.uncommitted+662c851-all.jar!/com/synisys/idm/dataset/ApplicationContextProvider.class" />
+    <entry file="jar://$PROJECT_DIR$/libs/idm-dataset-service-1.0.9-rc.4.dev.0.uncommitted+662c851-all.jar!/com/synisys/idm/dataset/internal/manager/DatasetCacheLoader.class" />
+    <entry file="file://$PROJECT_DIR$/igniteserver.iml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/ignite-boot-client-0.0.1-SNAPSHOT.jar!/com/examples/ignite/Dataset.class" />
+    <entry file="jar://$PROJECT_DIR$/libs/ignite-boot-client-0.0.1-SNAPSHOT.jar!/com/examples/ignite/CustomLoader.class" />
+    <entry file="jar://$PROJECT_DIR$/libs/ignite-boot-client-0.0.1-SNAPSHOT.jar!/com/examples/ignite/CustomCacheLoaderFactory.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-spring/3.8.3/hazelcast-spring-3.8.3-sources.jar!/com/hazelcast/spring/context/SpringAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/ignite-boot-client-2-0.0.1-SNAPSHOT.jar!/com/example/demo/IgniteBootClient2Application.class" />
+    <entry file="jar://$PROJECT_DIR$/libs/ignite-boot-client-0.0.1-SNAPSHOT.jar!/com/examples/ignite/IgniteBootClientApplication.class" />
+    <entry file="jar://$PROJECT_DIR$/libs/ignite-boot-client-2-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes/com/example/demo/AnotherLoader.class" />
+    <entry file="jar://$PROJECT_DIR$/libs/ignite-boot-client-2-0.0.1-SNAPSHOT.jar!/com/example/demo/AnotherDataset.class" />
+    <entry file="jar://$PROJECT_DIR$/libs/ignite-boot-client-2-0.0.1-SNAPSHOT.jar!/com/example/demo/AnotherLoader.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ignite-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2083,7 +1158,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>igniteserver</last-edited>
+          <last-edited>ignite-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2108,11 +1183,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.h2database:h2:1.4.195</last-edited>
+          <last-edited>ignite-boot-client-2-0.0.1-SNAPSHOT</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.26186132" />
               </list>
             </option>
           </splitter-proportions>
